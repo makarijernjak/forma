@@ -1,0 +1,53 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    background: linear-gradient(360deg, #c76046, #ffd0ab);
+}   
+.glavni-kontejner{
+background-color:white;
+border-radius: 10px;
+width:100%;
+max-width:400px;
+height:100%;
+max-height:500px;
+box-shadow:0 0px 50px rgba(0, 0, 0, 0.1);
+}
+/*
+.labelaplusinput{
+padding-left: 20px;
+font-size: 30px;
+}
+*/
+.labela{
+    padding-left:50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.input{
+padding-left:20px;
+width: 340px;
+height:50px;
+border-radius:10px;
+margin-bottom: 20px;
+margin-top:10px;
+margin-left:25px;
+font-size:15px;
+}
+.naslov{
+    text-align:center;
+}
+.dugme{
+    width:250px;
+    margin-left: 75px;
+    border-radius:30px;
+    margin-top:20px;
+    height:50px;
+    font-size:20px;
+    background:linear-gradient(180deg, rgb(40, 40, 201), rgb(0, 204, 255));
+}
